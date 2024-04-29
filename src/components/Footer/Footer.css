@@ -1,0 +1,44 @@
+.container-footer {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(48, 47, 47);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  padding: 20px;
+}
+
+.ul-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.lists {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.lists a{
+  text-decoration: none;
+  color: #fff;
+}
+.lists:hover {
+  text-decoration: underline;
+}
+
+.fa-solid {
+  color: white;
+}
+
+@media only screen and (max-width: 576px) {
+  .ul-details {
+    display: grid;
+    grid-column: 3;
+    grid-template-columns: 3;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    text-align: center;
+  }
+}
